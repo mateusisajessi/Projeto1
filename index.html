@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang=pt-br>
+	<head>
+		<title>Mateus Santana, web developer</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="icons/icons.css">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+		<script src="js/main.js"></script>
+	</head>
+
+	<body>
+
+		<header class="header">
+			<div class="clearfix maxwidth">
+				<img class="header__logo" src="img/logo2.svg" alt="Logo Mateus Santana">
+				<nav class="nav">
+					<ul class="nav__ul">
+						<li class="nav__li"><a class="nav__link" href="#">Home</a></li>
+						<li class="nav__li"><a class="nav__link" href="#">Sobre</a></li>
+						<li class="nav__li"><a class="nav__link" href="#">Portifólio</a></li>
+						<li class="nav__li"><a class="nav__link" href="#">Contato</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<section class="section-top">
+			<div class="animation maxwidth">
+				<div class="icon">
+					<img class="icon__img" src="img/menor-maior3.svg" alt="Icone sinal maior e menor">
+				</div>
+				<h1 class="section-top__title">Mateus Santana, desenvolvedor front-end</h2>
+				<p class="section-top__p">Meu objetivo com esse site é colocar em pratica meus estudos na área de desenvolvimento front-end, estarei melhorando o mesmo gradativamente a medida do meu aprendizado.</p>
+				<button class="section-top__btn btn">Portifolio</button>
+			</div>
+		</section>
+
+		<main class="main">
+			<div class="clearfix">
+				<section class="main__section">
+					<article class="section__article">
+						<h2 class="article__title">Sobre</h2>
+						<p class="article__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt minima, quisquam ex. Explicabo expedita porro et eveniet laborum ullam molestiae quod atque reprehenderit ipsam impedit molestias, provident! Architecto, quisquam, dolor!</p>
+						<p class="article__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt minima, quisquam ex. Explicabo expedita porro et eveniet laborum ullam molestiae quod atque reprehenderit ipsam impedit molestias, provident! Architecto, quisquam, dolor!</p>
+					</article>
+
+					<article class="section__article">
+						<h2 class="article__title">Portifolio</h2>
+						<p class="article__p article__p-portifolio">Conheça alguns de meus trabalhos</p>
+						<div class="clearfix">
+
+							<div class="col-1-4">
+								<h3 class="article__subtitle"><a class="article__subtitle-link" href="#">Projeto 1</a></h3>
+								<a href="#" class="article__img-link"><img class="article__img" src="img/img1.jpg" alt="Imagem de tecnologia"></a>
+							</div>
+							
+							<div class="col-1-4">
+								<h3 class="article__subtitle"><a class="article__subtitle-link" href="#">Projeto 2</a></h3>
+								<a href="#"><img class="article__img" src="img/img2.jpg" alt="Imagem de tecnologia"></a>				
+							</div>
+
+							<div class="col-1-4">
+								<h3 class="article__subtitle"><a class="article__subtitle-link" href="#">Projeto 3</a></h3>
+								<a href="#"><img class="article__img" src="img/img3.jpeg" alt="Imagem de tecnologia"></a>
+							</div>
+
+							<div class="col-1-4">
+								<h3 class="article__subtitle"><a class="article__subtitle-link" href="#">Projeto 4</a></h3>
+								<a href="#"><img class="article__img" src="img/img4.jpg" alt="Imagem de tecnologia"></a>
+							</div>
+
+						</div>
+						<button class="article__btn btn maxwidth">Veja mais</button>
+					</article>
+				</section>
+			</div>
+		</main>
+		
+		<div class="clearfix">
+			<section class="contact">
+				<div class="divisao">
+
+					<h2 class="contact__title">Envie uma mensagem</h2>
+
+					<form action="#" method="POST" class="msg-form">
+
+						<fieldset class="fieldset">
+
+							<label class="label-form" for="nome">Nome</label>
+							<input type="text" id="nome" name="nome" required>
+
+							<label class="label-form" for="email">E-mail</label>
+							<input type="email" id="email" name="email" required>
+
+							<label class="label-form" for="assunto">Assunto</label>
+							<input type="text" id="assunto" name="assunto" required>
+							
+							<label class="label-form" for="msg">Mensagem</label required>
+							<textarea id="msg" cols="30" rows="10" name="msg" style="resize: none" maxlength="256"></textarea>
+						
+							<input class="btn" type="submit" value="Enviar">
+						
+						</fieldset>
+						
+					</form>
+
+				</div>
+			</section>
+					
+			<section class="section-address">
+				<div class="divisao">
+					<h2 class="contact__title">Informações para contato</h2>
+
+					<address class="address">
+						<p class="address__p">
+							<span>Endereço:</span>
+							Parque Bristol, São Paulo/SP
+						</p>
+						<p class="address__p">
+							<span>Telefone:</span>
+							(11) 96094-4313
+						</p>
+						<p class="address__p">
+							<span>E-mail:</span>
+							mateus.isajessi@gmail.com
+						</p>
+					</address>
+				</div>
+			</section>
+		</div>
+
+		<footer class="footer">
+			<div class="footer__div--icons clearfix">
+				<ul class="footer__ul">
+					<li><a href="#" class="icon-facebook2"><span class="hidden">Facebook</span></a></li>
+					<li><a href="#" class="icon-instagram"><span class="hidden">Instagram</span></a></li>
+					<li><a href="#" class="icon-twitter"><span class="hidden">Twitter</span></a></li>
+					<li><a href="#" class="icon-skype"><span class="hidden">Skype</span></a></li>
+				</ul>
+			</div>
+			<div class="footer__position-p">
+				<p class="footer__p">&copy; Todos os direitos reservados<br><a class="footer__link" href="index.html">By Mateus Santana</a></p>
+			</div>
+		</footer>
+
+	</body>
+</html>
