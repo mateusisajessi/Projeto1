@@ -53,6 +53,10 @@ body{
 /*            HEADER             */
 /* ------------------------------*/
 
+.header{
+	text-align: center;
+}
+
 .header__logo{
 	width: 20em;
 }
@@ -304,10 +308,11 @@ body{
 @media screen and (min-width: 43.75em) /* 700 / 16 */{
 	.header__logo{
 		float: left;
+		width: 13em;
 	}
 	.nav{
 		display: inline-block;
-		margin: 1.2em 0;
+		margin: .5em 0;
 		float: right;
 	}
 	.nav__ul{
@@ -338,6 +343,18 @@ body{
 		width: 46%;
 		float: left;
 		margin: 2% 2% 4% 2%;
+	}
+}
+
+@media screen and (min-width: 50.875em) /* 814px quebra no header */{
+	.header__logo{
+		float: left;
+		width: 20em;
+	}
+	.nav{
+		display: inline-block;
+		margin: 1.2em 0;
+		float: right;
 	}
 }
 
