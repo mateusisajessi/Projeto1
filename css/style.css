@@ -224,6 +224,11 @@ body{
 #nome,#email,#assunto{
 	padding-top: .7em;
 	padding-bottom: .7em;
+	padding-left: .5em;
+}
+#msg{
+	padding-top: .5em;
+	padding-left: .5em;
 }
 
 .address{
