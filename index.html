@@ -2,6 +2,9 @@
 <html lang=pt-br>
 	<head>
 		<title>Mateus Santana, web developer</title>
+		<meta name="author" content="Mateus">
+    	<meta name="description" content="Site pessoal sobre meus trabalhos como desenvolver web, seja bem vindo para conhecer meu portifolio.">
+    	<meta name="keywords" content="desenvolvimento, site, web, criação de sites, html, js, css, mateus santana">
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
@@ -38,19 +41,20 @@
 				</div>
 				<h1 class="section-top__title">Mateus Santana, desenvolvedor front-end</h2>
 				<p class="section-top__p">Meu objetivo com esse site é colocar em pratica meus estudos na área de desenvolvimento front-end, estarei melhorando o mesmo gradativamente a medida do meu aprendizado.</p>
-				<button class="section-top__btn btn">Portifolio</button>
 			</div>
 		</section>
 
 		<main class="main">
 			<div class="clearfix">
 				<section class="main__section">
-					<article class="section__article">
+					<article class="section__article section__article--bgtop">
 						<h2 class="article__title">Sobre</h2>
-						<p class="article__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt minima, quisquam ex. Explicabo expedita porro et eveniet laborum ullam molestiae quod atque reprehenderit ipsam impedit molestias, provident! Architecto, quisquam, dolor!</p>
-						<p class="article__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt minima, quisquam ex. Explicabo expedita porro et eveniet laborum ullam molestiae quod atque reprehenderit ipsam impedit molestias, provident! Architecto, quisquam, dolor!</p>
+						<div class="maxwidth__p">
+						<p class="article__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt minima, quisquam ex. Explicabo expedita porro et eveniet laborum ullam molestiae quod atque reprehenderit ipsam impedit molestias, provident! Architecto, quisquam, dolor! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt minima, quisquam ex. Explicabo expedita porro et eveniet laborum ullam molestiae quod atque reprehenderit ipsam impedit molestias, provident! Architecto, quisquam, dolor! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti voluptate aut minima assumenda quos quis! Nesciunt, veritatis accusamus! Distinctio harum excepturi suscipit minus deserunt est vero soluta porro explicabo tenetur!</p>
+						</div>
 					</article>
-
+					
+					<div class="section__article--bg">
 					<article class="section__article">
 						<h2 class="article__title">Portifolio</h2>
 						<p class="article__p article__p-portifolio">Conheça alguns de meus trabalhos</p>
@@ -75,9 +79,10 @@
 								<h3 class="article__subtitle"><a class="article__subtitle-link" href="#">Projeto 4</a></h3>
 								<a href="#"><img class="article__img" src="img/img4.jpg" alt="Imagem de tecnologia"></a>
 							</div>
+						<button class="article__btn btn maxwidth">Veja mais</button>
+						</div>
 
 						</div>
-						<button class="article__btn btn maxwidth">Veja mais</button>
 					</article>
 				</section>
 			</div>
@@ -89,14 +94,14 @@
 
 					<h2 class="contact__title">Envie uma mensagem</h2>
 
-					<form action="#" method="POST" class="msg-form">
+					<form action="#" class="msg-form">
 
 						<fieldset class="fieldset">
 
 							<label class="label-form" for="nome">Nome</label>
 							<input type="text" id="nome" name="nome" required>
 
-							<label class="label-form" for="email">E-mail</label>
+							<label class="label-form js-email" for="email">E-mail<span style="display: none"> invalido</span></label>
 							<input type="email" id="email" name="email" required>
 
 							<label class="label-form" for="assunto">Assunto</label>
@@ -132,6 +137,10 @@
 							mateus.isajessi@gmail.com
 						</p>
 					</address>
+
+					<div class="address-img">
+						<img src="img/notebook1.png" alt="notebook">
+					</div>
 				</div>
 			</section>
 		</div>
